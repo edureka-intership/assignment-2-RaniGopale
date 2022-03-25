@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Zomato Home Page using Bootstrap 3</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- do not delete jumbotron class CSS is added for below -->
+        <div class="jumbotron" id="bgImg">
+            <!-- <img src="img/bg2.jpg"  alt="background_image"> -->
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#zomatoNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand" id="nav_a">Zomato</a>
+                </div>
+                <div class="navbar-collapse collapse" id="zomatoNav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="" id="nav_a">Add Restaurant</a></li>
+                        <li><a href="" id="nav_a">login</a></li>
+                        <li><a href="" id="nav_a">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-center heading_Search">
+            <h1>Zomato</h1>
+            <h3>Discover the best food & drinks in Mumbai</h3>
+            <div class="container searchContainer">
+                <i class="glyphicon glyphicon-map-marker"></i> <!--  list of locations -->
+                <div class="location_list">
+                    <input type="list" placeholder="Mumbai" class="searchText" id="dropdown_field">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
+                </div>
+                <i class="glyphicon glyphicon-search "></i>   <!--  //search icon -->
+                <div class="typeSearch">
+                    <input type="text" placeholder="search for restaurants, cuisines or dish" class="searchText"
+                        id="search_field">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Collections</h2>
+        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
+        <div class="row ">
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto1.jpg" target="_blank">
+                        <img src="/img/resto1.jpg" alt="Lights" style="width:100%">
+                        <div class="caption">
+                            <h5>Newly Opened</h5>
+                            <p>21 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto2.jpg" target="_blank">
+                        <img src="/img/resto2.jpg" alt="Nature" style="width:100%">
+                        <div class="caption">
+                            <h5>Family Junctions</h5>
+                            <p>9 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto3.webp" target="_blank">
+                        <img src="/img/resto3.webp" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                            <h5>Great Biffets</h5>
+                            <p>2 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto4.jpg" target="_blank">
+                        <img src="/img/resto4.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption ">
+                            <h5>Disco Nights</h5>
+                            <p>53 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto5.webp" target="_blank">
+                        <img src="/img/resto5.webp" alt="Fjords" style="width:100%">
+                        <div class="caption ">
+                            <h5>Trending in youngsters</h5>
+                            <p>5 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 resto_section">
+                <div class="thumbnail">
+                    <a href="/img/resto6.jpg" target="_blank">
+                        <img src="/img/resto6.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption ">
+                            <h5>Cuisines</h5>
+                            <p>8 Places</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer> By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+        Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights
+        reserved.
+    </footer>
+
+</body>
+
+</html>

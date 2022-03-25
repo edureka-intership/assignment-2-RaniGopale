@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+
+}
+
+.jumbotron {
+    background-image: url('img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 0px;
+    color: white;
+    height: 450px;
+}
+
+#bgImg{
+    position: relative;
+    opacity: 1.0;
+}
+
+#nav_a{
+    color: white;
+}
+
+.navbar{
+    top:0;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.nav>li>a{
+    font-size: 17px;
+}
+
+a{
+    border: none;
+}
+
+.heading_Search{
+    position: absolute;
+    /* border: 3px solid red  ; */
+    top: 100px;
+    width: 100%;
+    color: white;
+}
+
+h1{
+    font-size: 6vw;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3{
+    font-size: 2.5vw;
+
+}
+
+.main{
+    margin-bottom: 30px;
+}
+
+.location_list
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchContainer{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    height: 8vh;
+    border-radius: 10px;
+}
+
+#dropdown_field{
+    width: 30%;
+    height: 2vw;
+    border: none;
+}
+
+.glyphicon-map-marker{
+    color: black;
+    margin: 10px;
+}
+
+#search_field{
+    width: 22vw;
+    border: none;
+    
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    border-right: 2px solid gray;
+    border-radius: 0px;
+}
+
+.glyphicon-search{
+    display: flex;
+    justify-content: center;
+    color:black;
+    align-items:center;
+    margin: 10px;
+}
+
+.resto_section:hover{
+    transform: scale(1.01);
+}
+
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    color: black;
+    padding-top: 22px;
+    border-top: 2px solid rgb(136, 135, 135);
+    text-align: center;
+}

@@ -48,10 +48,12 @@
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
                 </div>
-                <i class="glyphicon glyphicon-search "></i>   <!--  //search icon -->
-                <div class="typeSearch">
-                    <input type="text" placeholder="search for restaurants, cuisines or dish" class="searchText"
-                        id="search_field">
+                <div id="search_bar">
+                    <i class="glyphicon glyphicon-search "></i> <!--  //search icon -->
+                    <div class="typeSearch">
+                        <input type="text" placeholder="search for restaurants, cuisines or dish" class="searchText"
+                            id="search_field">
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,15 +61,15 @@
 
     <div class="container">
         <h2>Collections</h2>
-        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
+        <p class="fnSize">Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
         <div class="row ">
             <div class="col-md-4 resto_section">
                 <div class="thumbnail">
                     <a href="img/resto1.jpg" target="_blank">
                         <img src="img/resto1.jpg" alt="Newly Opened" style="width:100%">
                         <div class="caption">
-                            <h5>Newly Opened</h5>
-                            <p>21 Places</p>
+                            <h5 class="fnSize">Newly Opened</h5>
+                            <p class="fnSize">21 Places</p>
                         </div>
                     </a>
                 </div>
@@ -77,8 +79,8 @@
                     <a href="img/resto2.jpg" target="_blank">
                         <img src="img/resto2.jpg" alt="Family Junctions" style="width:100%">
                         <div class="caption">
-                            <h5>Family Junctions</h5>
-                            <p>9 Places</p>
+                            <h5 class="fnSize">Family Junctions</h5>
+                            <p class="fnSize">9 Places</p>
                         </div>
                     </a>
                 </div>
@@ -88,8 +90,8 @@
                     <a href="img/resto3.webp" target="_blank">
                         <img src="img/resto3.webp" alt="Great Buffets" style="width:100%">
                         <div class="caption">
-                            <h5>Great Buffets</h5>
-                            <p>2 Places</p>
+                            <h5 class="fnSize">Great Buffets</h5>
+                            <p class="fnSize">2 Places</p>
                         </div>
                     </a>
                 </div>
@@ -99,8 +101,8 @@
                     <a href="img/resto4.jpg" target="_blank">
                         <img src="img/resto4.jpg" alt="Disco Nights" style="width:100%">
                         <div class="caption ">
-                            <h5>Disco Nights</h5>
-                            <p>53 Places</p>
+                            <h5 class="fnSize">Disco Nights</h5>
+                            <p class="fnSize">53 Places</p>
                         </div>
                     </a>
                 </div>
@@ -110,8 +112,8 @@
                     <a href="img/resto5.webp" target="_blank">
                         <img src="img/resto5.webp" alt="Trending in youngsters" style="width:100%">
                         <div class="caption ">
-                            <h5>Trending in youngsters</h5>
-                            <p>5 Places</p>
+                            <h5 class="fnSize">Trending in youngsters</h5>
+                            <p class="fnSize">5 Places</p>
                         </div>
                     </a>
                 </div>
@@ -121,13 +123,83 @@
                     <a href="img/resto6.jpg" target="_blank">
                         <img src="img/resto6.jpg" alt="Cuisines" style="width:100%">
                         <div class="caption ">
-                            <h5>Cuisines</h5>
-                            <p>8 Places</p>
+                            <h5 class="fnSize">Cuisines</h5>
+                            <p class="fnSize">8 Places</p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- image gallery section Carousel -->
+    <div class="container">
+        <div class="row">
+            <h2>Restaurant gallery</h2>
+            <p class="fnSize">Popular localities in and around your Location</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide media-carousel" id="media">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#" target="_blank" class="thumbnail" ><img src="img/img1.jpg" alt="" ></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img4.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img5.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img6.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img7.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img8.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img9.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img10.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img11.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="thumbnail"><img src="img/img12.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--carousel inner closure--> 
+                    
+                    <a href="#media" class="left carousel-control" data-slide="prev"><</a>
+                    <a href="#media" class="right carousel-control" data-slide="next">></a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer> By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content

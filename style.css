@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Fredoka&family=Staatliches&display=swap');
 body, html {
     margin: 0;
 
@@ -100,7 +101,17 @@ h3{
 #search_field{
     width: 22vw;
     border: none;
-    
+ 
+}
+
+.typeSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_bar{
+    display: flex;
 }
 
 .btn{
@@ -131,4 +142,71 @@ footer{
     padding-top: 22px;
     border-top: 2px solid rgb(136, 135, 135);
     text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+    footer{
+        
+        padding: 2px;
+        margin-top: 2px;
+        
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  } */
+
+
+  .media-carousel{
+    margin: 10px;
+    padding: 60px;
+    background-color: none;
+  }
+
+  .left.carousel-control{
+      margin-top: 100px;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      background-color: black;
+      color: white;
+      border: 2px solid black;
+  }
+
+  .right.carousel-control{
+    margin-top: 100px;
+    /* margin-left: 15px; */
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.carousel-inner{
+    margin-left: 10px;
+}
+
+/* .item{
+    margin: 10px;
+} */
+
+.fnSize{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px;
+}
+
+h5{
+    font-size: 22px !important;
+}
+
+.media-carousel img
+{
+  width: 250px;
+  height: 150px
 }
